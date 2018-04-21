@@ -18,6 +18,6 @@ function currentLine(line){
   }
   for (let i = 0; i < line.length; i++){
     katzDeli.push(line[i]);
-    return "The line is currently: "+ line.indexOf(i) +". "+ line[i];
+    return "The line is currently: "+ katzDeli.indexOf(i) +". "+ line[i];
   }
 }
