@@ -11,8 +11,6 @@ function nowServing(){
   }
     return "Currently serving " + katzDeli[0]+".";
     katzDeli.unshift();
-  }
-
 }
 
 function currentLine(line){
