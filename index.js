@@ -8,6 +8,6 @@ function nowServing(){
 
 }
 
-function currentLine(){
+function currentLine(line){
 
 }
