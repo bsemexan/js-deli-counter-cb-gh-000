@@ -16,7 +16,7 @@ function currentLine(line){
   if (line.length < 1){
     return "The line is currently empty.";
   }
-  for (let i = 0; i < katzDeli.length; i++){
+  for (let i = 0; i < line.length; i++){
     return "The line is currently:"+ katzDeli.indexOf(line);
   }
 }
