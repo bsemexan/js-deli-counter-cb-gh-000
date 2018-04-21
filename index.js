@@ -18,5 +18,6 @@ function currentLine(line){
   }
   for (let i = 0; i < line.length; i++){
     return "The line is currently: "+ line[i];
+    i++;
   }
 }
