@@ -6,6 +6,7 @@ function takeANumber(katzDeliLine, name) {
 }
 
 function nowServing(){
+  if katzDeliLine
   return "There is nobody waiting to be served!";
 }
 
