@@ -9,8 +9,8 @@ function nowServing(){
   if (katzDeliLine === []){
     return "There is nobody waiting to be served!";
   }else {
-    return "Currently serving" + +.
-    katzDeliLine
+    return "Currently serving" + katzDeliLine[0]+.
+    
   }
 
 }
