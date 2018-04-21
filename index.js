@@ -17,6 +17,7 @@ function currentLine(line){
     return "The line is currently empty.";
   }
   for (let i = 0; i < line.length; i++){
+    katzDeli.push(line[i]);
     return "The line is currently: "+ line.indexOf(i) +". "+ line[i];
   }
 }
