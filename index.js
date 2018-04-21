@@ -17,6 +17,6 @@ function currentLine(line){
     return "The line is currently empty.";
   }
   for (let i = 0; i < line.length; i++){
-    return "The line is currently: "+ line.indexOf();
+    return "The line is currently: "+ line.indexOf(i);
   }
 }
